@@ -1,0 +1,8 @@
+{{student | json}}
+<form>
+  <div class="form-group col-3">
+    <label for="exampleInputPassword1">Name</label>
+    <input type="text" class="form-control" placeholder="Enter Name" [(ngModel)]='studentModel.name' name="name">
+  </div>
+  <input type="button" value="Add" (click)="add()">
+</form>
